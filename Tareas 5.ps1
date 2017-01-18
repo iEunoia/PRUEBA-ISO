@@ -1,5 +1,7 @@
 #Tareas 5: Hilos#
 #¿Qué son? 
+"Un proceso tiene miniprocesos que se llaman hilos, la razón de dividir un proceso en unidades más pequeñas es que la mayoria de los procesos están realizando
+varias acciones a la vez y puede que una de estas acciones se bloquee y podría dejar bloqueado todo el proceso"
 "Un hilo (proceso ligero) es una unidad básica de utilización de la CPU, y consiste en un contador de programa, un juego de registros y un espacio de pila"
 "Los hilos permiten la ejecución concurrente de varias secuencias de instrucciones asociadas a diferentes funciones dentro de un mismo proceso, 
 compartiendo un mismo espacio de direcciones y las mismas estructuras de datos del núcleo."
